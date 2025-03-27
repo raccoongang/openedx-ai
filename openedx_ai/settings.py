@@ -133,7 +133,11 @@ CHANNEL_LAYERS = {
     },
 }
 
+# AI settings
 OPENAI = {
     "api_key": "SET-ME-PLEASE",
     "model": "gpt-3.5-turbo-0125",
 }
+
+# OpenEdx settings
+LMS_BASE_URL = "http://local.openedx.io:8000"
